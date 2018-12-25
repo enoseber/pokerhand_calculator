@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/eirik/Documents/Øving/pokerhand_calculator/cards/build",
+  "command": "/usr/bin/c++    -I/home/eirik/Documents/Øving/pokerhand_calculator/cards/include   -std=c++1y -Wall -Wextra   -o CMakeFiles/cards.dir/card.cpp.o -c /home/eirik/Documents/Øving/pokerhand_calculator/cards/card.cpp",
+  "file": "/home/eirik/Documents/Øving/pokerhand_calculator/cards/card.cpp"
+},
+{
+  "directory": "/home/eirik/Documents/Øving/pokerhand_calculator/cards/build",
+  "command": "/usr/bin/c++    -I/home/eirik/Documents/Øving/pokerhand_calculator/cards/include   -std=c++1y -Wall -Wextra   -o CMakeFiles/cards.dir/suit.cpp.o -c /home/eirik/Documents/Øving/pokerhand_calculator/cards/suit.cpp",
+  "file": "/home/eirik/Documents/Øving/pokerhand_calculator/cards/suit.cpp"
+},
+{
+  "directory": "/home/eirik/Documents/Øving/pokerhand_calculator/cards/build",
+  "command": "/usr/bin/c++    -I/home/eirik/Documents/Øving/pokerhand_calculator/cards/include   -std=c++1y -Wall -Wextra   -o CMakeFiles/cards.dir/type.cpp.o -c /home/eirik/Documents/Øving/pokerhand_calculator/cards/type.cpp",
+  "file": "/home/eirik/Documents/Øving/pokerhand_calculator/cards/type.cpp"
+}
+]

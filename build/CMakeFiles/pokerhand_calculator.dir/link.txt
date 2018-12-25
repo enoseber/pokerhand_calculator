@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++1y -Wall -Wextra   CMakeFiles/pokerhand_calculator.dir/main.cpp.o CMakeFiles/pokerhand_calculator.dir/game.cpp.o  -o pokerhand_calculator -rdynamic cards/libcards.a 

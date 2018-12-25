@@ -1,0 +1,6 @@
+/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles/rebuild_cache.dir
+/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles/edit_cache.dir
+/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles/pokerhand_calculator.dir
+/home/eirik/Documents/Øving/pokerhand_calculator/build/cards/CMakeFiles/rebuild_cache.dir
+/home/eirik/Documents/Øving/pokerhand_calculator/build/cards/CMakeFiles/edit_cache.dir
+/home/eirik/Documents/Øving/pokerhand_calculator/build/cards/CMakeFiles/cards.dir
