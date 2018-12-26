@@ -15,5 +15,5 @@ public:
 private:
   int selector;
   std::vector<std::string> suits =
-      {"spades", "hearts", "spades", "clubs"};
+      {"spades", "hearts", "diamonds", "clubs"};
 };

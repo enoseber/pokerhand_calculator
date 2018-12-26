@@ -1,4 +1,5 @@
 #include "card.h"
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -14,10 +15,27 @@ std::string Card::getSuit() {
   return suit.getSuit();
 }
 
+void Card::setType(std::string t) {
+}
+
+/*
+void Card::setSuit(std::string{
+  
+}
+
 std::string Card::printCard() {
   return getSuit() + " " + getType();
 }
+*/
 
 bool Card::compare(Card other) {
   return suit.compare(other.getSuit()) && type.compare(other.getType());
 }
+
+/*
+
+std::istream& operator >> (std::istream& in, Card &c){
+  cin >> c.set return in;
+};
+
+*/

@@ -9,6 +9,8 @@
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/card.cpp
 card.h
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/card.h
+iostream
+-
 string
 -
 vector
@@ -19,6 +21,8 @@ suit.h
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/suit.h
 type.h
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/type.h
+iostream
+-
 string
 -
 

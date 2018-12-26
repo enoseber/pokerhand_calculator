@@ -15,6 +15,8 @@ public:
   std::string getTable();
   std::string getHand();
 
+  int getPlayers();
+
 private:
   int hand_counter;
   int players;

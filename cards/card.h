@@ -1,6 +1,7 @@
 #pragma once
 #include "suit.h"
 #include "type.h"
+#include <iostream>
 #include <string>
 
 class Card {
@@ -13,7 +14,12 @@ public:
   std::string getSuit();
   std::string getType();
 
+  void setType(std::string t);
+  void setSuit(std::string s);
+
   bool compare(Card other);
+
+  friend std::istream &operator>>(std::istream &in, Card &c);
 
 private:
   Suit suit;

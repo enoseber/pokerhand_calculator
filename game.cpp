@@ -38,3 +38,7 @@ std::string Game::getHand() {
 
   return out;
 }
+
+int Game::getPlayers() {
+  return players;
+}
