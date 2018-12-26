@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/eirik/Documents/Øving/pokerhand_calculator/build
 CMakeFiles/pokerhand_calculator.dir/all: cards/CMakeFiles/cards.dir/all
 	$(MAKE) -f CMakeFiles/pokerhand_calculator.dir/build.make CMakeFiles/pokerhand_calculator.dir/depend
 	$(MAKE) -f CMakeFiles/pokerhand_calculator.dir/build.make CMakeFiles/pokerhand_calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles --progress-num=5,6,7 "Built target pokerhand_calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles --progress-num=5,6,7,8 "Built target pokerhand_calculator"
 .PHONY : CMakeFiles/pokerhand_calculator.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/pokerhand_calculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pokerhand_calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pokerhand_calculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles 0
 .PHONY : CMakeFiles/pokerhand_calculator.dir/rule

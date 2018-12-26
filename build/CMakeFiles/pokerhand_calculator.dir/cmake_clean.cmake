@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pokerhand_calculator.dir/main.cpp.o"
   "CMakeFiles/pokerhand_calculator.dir/game.cpp.o"
+  "CMakeFiles/pokerhand_calculator.dir/Calculator.cpp.o"
   "pokerhand_calculator.pdb"
   "pokerhand_calculator"
 )

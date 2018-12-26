@@ -136,6 +136,33 @@ cards/fast:
 	$(MAKE) -f cards/CMakeFiles/cards.dir/build.make cards/CMakeFiles/cards.dir/build
 .PHONY : cards/fast
 
+Calculator.o: Calculator.cpp.o
+
+.PHONY : Calculator.o
+
+# target to build an object file
+Calculator.cpp.o:
+	$(MAKE) -f CMakeFiles/pokerhand_calculator.dir/build.make CMakeFiles/pokerhand_calculator.dir/Calculator.cpp.o
+.PHONY : Calculator.cpp.o
+
+Calculator.i: Calculator.cpp.i
+
+.PHONY : Calculator.i
+
+# target to preprocess a source file
+Calculator.cpp.i:
+	$(MAKE) -f CMakeFiles/pokerhand_calculator.dir/build.make CMakeFiles/pokerhand_calculator.dir/Calculator.cpp.i
+.PHONY : Calculator.cpp.i
+
+Calculator.s: Calculator.cpp.s
+
+.PHONY : Calculator.s
+
+# target to generate assembly for a file
+Calculator.cpp.s:
+	$(MAKE) -f CMakeFiles/pokerhand_calculator.dir/build.make CMakeFiles/pokerhand_calculator.dir/Calculator.cpp.s
+.PHONY : Calculator.cpp.s
+
 game.o: game.cpp.o
 
 .PHONY : game.o
@@ -200,6 +227,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... pokerhand_calculator"
 	@echo "... cards"
+	@echo "... Calculator.o"
+	@echo "... Calculator.i"
+	@echo "... Calculator.s"
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"

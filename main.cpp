@@ -1,6 +1,6 @@
+#include "Calculator.h"
 #include "cards/card.h"
 #include "game.h"
-#include "hands.h"
 #include <iostream>
 #include <vector>
 
@@ -8,13 +8,24 @@ int main() {
   int players = 0;
 
   std::cout << "Please enter the number of players:";
-  std::cin >> players;
+  //std::cin >> players;
   std::cout << std::endl;
 
   Game game(players);
 
+  Calculator calc(game);
+
+  game.setHand({Card("hearts", "2"), Card("hearts", "3")});
+
+  game.setTable({Card("hearts", "ace"),
+                 Card("hearts", "king"),
+                 Card("spades", "queen")});
+
+  std::cout << calc.calculateFlushPercentage() << std::endl;
+
   std::string inputs[6];
 
+  /*
   while (true) {
     std::cout << "Please enter you hand:";
     std::cin >> inputs[0] >> inputs[1];
@@ -62,4 +73,5 @@ int main() {
       break;
     }
   }
+  */
 }

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/eirik/Documents/Øving/pokerhand_calculator/Calculator.cpp" "/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles/pokerhand_calculator.dir/Calculator.cpp.o"
   "/home/eirik/Documents/Øving/pokerhand_calculator/game.cpp" "/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles/pokerhand_calculator.dir/game.cpp.o"
   "/home/eirik/Documents/Øving/pokerhand_calculator/main.cpp" "/home/eirik/Documents/Øving/pokerhand_calculator/build/CMakeFiles/pokerhand_calculator.dir/main.cpp.o"
   )

@@ -12,8 +12,11 @@ public:
   void setTable(std::vector<Card> cards);
   void setTable(Card c);
 
-  std::string getTable();
-  std::string getHand();
+  std::vector<Card> getTable();
+  std::vector<Card> getHand();
+
+  std::string printTable();
+  std::string printHand();
 
   int getPlayers();
 

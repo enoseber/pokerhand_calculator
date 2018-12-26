@@ -18,7 +18,7 @@ void Game::setTable(Card c) {
   table.push_back(c);
 }
 
-std::string Game::getTable() {
+std::string Game::printTable() {
   std::string out = "";
 
   for (auto c : table) {
@@ -28,7 +28,7 @@ std::string Game::getTable() {
 
   return out;
 }
-std::string Game::getHand() {
+std::string Game::printHand() {
   std::string out = "";
 
   for (auto c : hand) {
@@ -37,6 +37,13 @@ std::string Game::getHand() {
   }
 
   return out;
+}
+
+std::vector<Card> Game::getHand() {
+  return hand;
+}
+std::vector<Card> Game::getTable() {
+  return table;
 }
 
 int Game::getPlayers() {

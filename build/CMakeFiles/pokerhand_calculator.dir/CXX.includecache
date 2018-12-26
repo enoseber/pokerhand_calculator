@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/eirik/Documents/Øving/pokerhand_calculator/Calculator.cpp
+Calculator.h
+/home/eirik/Documents/Øving/pokerhand_calculator/Calculator.h
+cards/card.h
+/home/eirik/Documents/Øving/pokerhand_calculator/cards/card.h
+cards/suit.h
+/home/eirik/Documents/Øving/pokerhand_calculator/cards/suit.h
+cards/type.h
+/home/eirik/Documents/Øving/pokerhand_calculator/cards/type.h
+iostream
+-
+
+/home/eirik/Documents/Øving/pokerhand_calculator/Calculator.h
+game.h
+/home/eirik/Documents/Øving/pokerhand_calculator/game.h
+vector
+-
+
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/card.h
 suit.h
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/suit.h
@@ -38,19 +56,13 @@ cards/card.h
 vector
 -
 
-/home/eirik/Documents/Øving/pokerhand_calculator/hands.h
-game.h
-/home/eirik/Documents/Øving/pokerhand_calculator/game.h
-vector
--
-
 /home/eirik/Documents/Øving/pokerhand_calculator/main.cpp
+Calculator.h
+/home/eirik/Documents/Øving/pokerhand_calculator/Calculator.h
 cards/card.h
 /home/eirik/Documents/Øving/pokerhand_calculator/cards/card.h
 game.h
 /home/eirik/Documents/Øving/pokerhand_calculator/game.h
-hands.h
-/home/eirik/Documents/Øving/pokerhand_calculator/hands.h
 iostream
 -
 vector
